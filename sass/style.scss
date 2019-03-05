@@ -1,0 +1,40 @@
+body {
+    background-color: #55ACEE;
+    h1 {
+        color: #fff;
+        font-family: "Luckiest Guy";
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+    }
+    .box {
+        font-family: "Quicksand";
+        padding-top: 20px;
+        text-align: center;
+        color: #fff;
+    }
+    .buttons {
+        text-align: center;
+        .trigger {
+            border: 2px solid #fff;
+            font-family: "Quicksand";
+            font-size: 24px;
+            padding: 15px 50px;
+            color: #fff;
+            background-color: transparent;
+            transition: all 0.3s ease;
+            display: block;
+            margin: 0 auto;
+            &:hover {
+                cursor: pointer;
+                font-size: 28px;
+            }
+        }
+        .tweet {
+            @extend .trigger;
+            text-decoration: none;
+            margin-top: 30px;
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+body {
+  background-color: #55ACEE;
+}
+
+body h1 {
+  color: #fff;
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+}
+
+body .box {
+  font-family: "Quicksand";
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+body .buttons {
+  text-align: center;
+}
+
+body .buttons .trigger, body .buttons .tweet {
+  border: 2px solid #fff;
+  font-family: "Quicksand";
+  font-size: 24px;
+  padding: 15px 50px;
+  color: #fff;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+body .buttons .trigger:hover, body .buttons .tweet:hover {
+  cursor: pointer;
+  font-size: 28px;
+}
+
+body .buttons .tweet {
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */
